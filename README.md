@@ -21,3 +21,11 @@ vim /etc/fstab
 ```
 mount -a
 ```
+
+如果没有路由：
+
+```
+route 
+vim /etc/sysconfig/network/routes
+route add -host gw 
+```
